@@ -1,8 +1,3 @@
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
-
 /*
 Описываем числа
 Ввести с клавиатуры целое число в диапазоне 1 - 999. Вывести его строку-описание следующего вида:
@@ -29,6 +24,11 @@ import java.io.Reader;
 9. Если число нечетное и имеет три цифры, вывести "нечетное трехзначное число".
 10. Если введенное число не попадает в диапазон 1 - 999, ничего не выводить на экран
 */
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+
 public class task0427 {
     public static void main(String[] args) throws Exception {
         InputStream inputStream = System.in;
