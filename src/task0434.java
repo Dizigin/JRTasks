@@ -28,7 +28,7 @@ public class task0434 {
             System.out.print(i + " ");
             while (j <= i*10) {
                 System.out.print(j + " ");
-                j= j + i;
+                j = j + i;
             }
             System.out.println();
             i++;
