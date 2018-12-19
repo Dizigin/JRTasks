@@ -1,44 +1,40 @@
 public class task0522 {
 /*
-Вызов конструктора из конструктора
-Разберись, что делает программа.
-Исправь конструктор с двумя параметрами так, чтобы он вызывал другой конструктор с радиусом 10.
-Подумай, какой конструктор нужно вызвать.
+Максимум конструкторов
+Изучи класс Circle. Напиши максимальное количество конструкторов с разными аргументами.
+
 Подсказка:
-внимательно изучи реализацию конструктора по умолчанию.
+не забудь про конструктор по умолчанию.
 
 Требования:
-1. У класса должно быть 3 конструктора.
-2. Конструктор с двумя параметрами должен инициализировать переменные x и y переданными значениями.
-3. Конструктор с двумя параметрами должен инициализировать переменную radius значением 10.
-4. Конструктор с двумя параметрами должен вызывать другой конструктор, передав в него верные значения параметров.
-5. Метод main не изменять.
-6. Конструктор по умолчанию не изменять.
-public class Circle {
+1. У класса должно быть хотя бы три переменные.
+2. У класса должен быть конструктор по умолчанию.
+3. У класса должен быть хотя бы один конструктор.
+4. У класса должно быть хотя бы два конструктора.
+5. У класса должно быть хотя бы три конструктора.
+6. У класса должно быть хотя бы четыре конструктора.
 
+public class Circle {
     public double x;
     public double y;
     public double radius;
 
-    public Circle(double x, double y, double radius) {
+    public Circle(){};
+    public Circle (double x, double y, double radius){
         this.x = x;
         this.y = y;
         this.radius = radius;
     }
-
-    public Circle(double x, double y) {
-        this(x,y,10);
+    public Circle (double x, double y){
+        this.x = x;
+        this.y = y;
     }
-
-    public Circle() {
-        this(5, 5, 1);
+    public Circle (double x){
+        this.x = x;
     }
 
     public static void main(String[] args) {
-        Circle circle = new Circle();
-        System.out.println(circle.x + " " + circle.y + " " + circle.radius);
-        Circle anotherCircle = new Circle(10, 5);
-        System.out.println(anotherCircle.x + " " + anotherCircle.y + " " + anotherCircle.radius);
+
     }
 }
 */
