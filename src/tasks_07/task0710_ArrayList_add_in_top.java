@@ -1,6 +1,6 @@
 package tasks_07;
 
-public class task0710_ArrayList_add_in_top
+public class task0710_ArrayList_add_in_top{
 /*
 В начало списка
 1. Создай список строк в методе main.
