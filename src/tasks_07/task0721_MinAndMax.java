@@ -1,6 +1,6 @@
 package tasks_07;
 
-public class task_0721_MinAndMax {
+public class task0721_MinAndMax {
 /*
 Минимаксы в массивах
 Создать массив на 20 чисел.
