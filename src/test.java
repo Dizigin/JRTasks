@@ -1,19 +1,17 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 public class test {
     public static void main(String[] args) throws Exception {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(reader.readLine());
-        ArrayList integerList = new ArrayList();
-        for (int i = 0; i < n; i++){
-            integerList.add(Integer.parseInt(reader.readLine()));
-        }
-        System.out.println(integerList);
-    }
+        String date = "MAY 1 2013";
+        SimpleDateFormat format = new SimpleDateFormat("MMM d yyyy", Locale.ENGLISH);
+        Calendar calendar = new GregorianCalendar();
+        calendar.setTime(format.parse(date));
+        int day = calendar.get(Calendar.DAY_OF_YEAR);
+        if (day % 2 == 0) day = 0; else day = 1;
 
+        System.out.println(day);
+    }
 }
