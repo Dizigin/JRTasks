@@ -1,6 +1,6 @@
 package tasks_09;
 
-public class task0909_ArrayIndexOutOfBoundsException_GetClass {
+public class task0909_ArrayIndexOutOfBoundsException_getClass {
 /*
 Исключение при работе с массивами
 Перехватить исключение (и вывести его на экран), указав его тип, возникающее при выполнении кода:
