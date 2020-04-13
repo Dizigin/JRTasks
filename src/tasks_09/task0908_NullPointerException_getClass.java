@@ -1,11 +1,11 @@
 package tasks_09;
 
-public class task0907_Exception_getClass {
+public class task0908_NullPointerException_getClass {
 /*
-Исключение при работе с числами
-Перехватить исключение, возникающее при выполнении кода:
-int a = 42 / 0;
-Вывести на экран тип перехваченного исключения.
+Исключение при работе со строками
+Перехватить исключение (и вывести его на экран), указав его тип, возникающее при выполнении кода:
+String s = null;
+String m = s.toLowerCase();
 
 Требования:
 1. Программа должна выводить сообщение на экран.
@@ -13,15 +13,15 @@ int a = 42 / 0;
 3. Программа должна отлавливать исключения конкретного типа, а не все возможные (Exception).
 4. Выведенное сообщение должно содержать тип возникшего исключения.
 5. Имеющийся код в методе main не удалять.
-
 public class Solution {
     public static void main(String[] args) {
         //напишите тут ваш код
         try {
-            int a = 42 / 0;
+            String s = null;
+            String m = s.toLowerCase();
         }
-        catch (ArithmeticException e){
-            System.out.println(e.getClass());
+        catch(NullPointerException npe){
+            System.out.println(npe.getClass());
         }
         //напишите тут ваш код
     }
