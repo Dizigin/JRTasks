@@ -1,6 +1,6 @@
 package tasks_13;
 
-public class task_implements_generic_implements {
+public class task_1307_implements_generic_implements {
 /*
 Параметризованый интерфейс
 В классе StringObject реализуй интерфейс SimpleObject с параметром типа String.
