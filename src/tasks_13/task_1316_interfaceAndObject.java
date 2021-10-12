@@ -1,6 +1,6 @@
 package tasks_13;
 
-public class task1316_interfaceAndObject {
+public class task_1316_interfaceAndObject {
 /*
 Некорректные строки
 Удали все некорректные строки в интерфейсе Button.
