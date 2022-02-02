@@ -1,0 +1,17 @@
+package tasks_14.task1417;
+
+public class USD extends Money {
+    public USD(double amount) {
+        super(amount);
+    }
+
+    @Override
+    public String getCurrencyName() {
+        return "USD";
+    }
+
+    @Override
+    public double getAmount() {
+        return super.getAmount();
+    }
+}
